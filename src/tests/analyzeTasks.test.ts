@@ -24,4 +24,39 @@ describe('Analye Tasks', () =>{
 
         expect(actual).to.be.equal(expected)
     })
+
+    it('should average time spent by users', ()=> {
+
+        const actual: string = analyzeTasks("")
+
+        expect(actual).to.be.equal(false)
+    })
+
+    it('should average time spent by country', ()=> {
+
+        const actual: string = analyzeTasks("")
+
+        expect(actual).to.be.equal(false)
+    })
+
+    it('should each output should be sorted ascending', ()=> {
+
+        const actual: string = analyzeTasks("")
+
+        expect(actual).to.be.equal(false)
+    })
+
+    it('should Users and countries without any mention should be included in the output', ()=> {
+
+        const actual: string = analyzeTasks("")
+
+        expect(actual).to.be.equal(false)
+    })
+
+    it('should the average output should be rounded to the second decimal place', ()=> {
+
+        const actual: string = analyzeTasks("")
+
+        expect(actual).to.be.equal(false)
+    })
 })
