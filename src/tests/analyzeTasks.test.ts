@@ -91,12 +91,6 @@ US 10.00`
 
         expect(actual).to.be.deep.equal(expected)
     })
-    // it('should Users and countries without any mention should be included in the output', ()=> {
-
-    //     const actual: string = analyzeTasks("")
-
-    //     expect(actual).to.be.equal(false)
-    // })
 
     // it('should the average output should be rounded to the second decimal place', ()=> {
 
