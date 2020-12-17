@@ -60,11 +60,11 @@ format of data:
 
 ## P.S.
 
-Project I worked on related to this job:
+Projects I worked on related to this job:
 
-* Interview for a graphQL position a while ago and it was a take home project
+* Interviewed for a graphQL position a while ago and it was a take home project
     - [code](https://github.com/cjoshmartin/Graphql-Typescript-Work-index-server)
 
-* While in college, I when to a open source hackathon. Where I got to work with some of the Vercel (then they were called Zeit) team and build a terminal recorder plugin for their hyper.js terminal.
+* While in college, I went to a open source hackathon. Where I got to work with some of the Vercel team(then they were called Zeit) and build a terminal recorder plugin for their hyper.js terminal.
     - [code](https://github.com/cwlowder/hyper-orama)
     - [twitter post from Vercel](https://twitter.com/vercel/status/1099806113732673536?s=20)
