@@ -8,7 +8,7 @@
     "tswatch": "./node_modules/.bin/tsc -w",
     "startwatch": "nodemon dist/index.js",
     "start": "./node_modules/.bin/tsc && node dist/index.js",
-    "start:ci": "node dist/index.js",
+    "start:server": "./node_modules/.bin/tsc && node dist/server.js",
     "test": "mocha -r ts-node/register src/**/*.test.ts",
     "test-single": "mocha -r ts-node/register $1",
     "semantic-release": "semantic-release"
