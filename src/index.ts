@@ -19,7 +19,6 @@ in the first line of the input you can find the number of users in the platform 
 */
 
 export function toArray(input: string, delimiter: string): string[]{
-
     return input
     .split(delimiter)
     .map(value => value.trim())
@@ -92,6 +91,11 @@ export function parseExecutionTimes(rawInput: string[]): UserTasksInterface[]{
 }
 
 export function analyzeTasks(tasks: string) : string {
+
+    if (typeof tasks !== 'string' || tasks == null){
+       throw new Error('This endpoint only accepts plain text')
+    }
+
     const lines: string[] = toArray(tasks, '\n')
 
     const numberOfUsers: number = parseInt(lines[0]) + 1
