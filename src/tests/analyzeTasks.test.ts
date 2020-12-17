@@ -70,6 +70,27 @@ US 10.00`
         expect(actual).to.be.deep.equal(expected)
     })
 
+    it('should not include contries/users that do not have any usages', () =>{
+        const input: string = `
+        4
+        1 PT
+        2 US
+        3 AA
+        4 TT
+        3
+        1 1 10
+        2 1 5
+        3 2 10 `
+
+        const expected: string = `1 7.50
+2 10.00
+PT 7.50
+US 10.00`
+
+        const actual: string = analyzeTasks(input)
+
+        expect(actual).to.be.deep.equal(expected)
+    })
     // it('should Users and countries without any mention should be included in the output', ()=> {
 
     //     const actual: string = analyzeTasks("")
